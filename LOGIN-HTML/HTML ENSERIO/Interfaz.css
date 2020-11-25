@@ -1,0 +1,118 @@
+body{
+
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background:radial-gradient(rgba(255, 0, 0, 0.568),rgba(0, 89, 255, 0.472),rgba(174, 255, 0, 0.63));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+header{
+    color: rgba(68, 0, 255, 0.739);
+    text-align: center;
+}
+#section_article{
+    border: 3px solid red;
+    text-align: center;
+}
+#navigation{
+    border: 3px ridge rgba(246, 0, 246, 0.438);
+}
+ul{
+
+    
+    width: max-content;
+    padding-left: 3em;
+    
+}
+li{
+
+    display: inline;
+    border-left: 3px ridge;
+    margin: 2em;
+    border-right: 2px ridge;
+    color: rgb(33, 70, 235);
+    
+    
+}
+
+
+.articulo_1{
+
+    border: 3px inset red;
+    background:linear-gradient(rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493));
+    font: 900;
+    margin-left: 1038px;
+    padding-left: 15px;
+       
+}
+.barra_lateral{
+
+    background: radial-gradient(ellipse farthest-corner at 470px 47px,rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493));
+    border: 3px solid black;
+    float: left;
+    height: 3000px;
+    text-align: center;
+
+}
+
+.articulo_2{
+
+    border: 3px inset red;
+    background:linear-gradient(rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493));
+    font: 900;
+    margin-left: 1038px;
+    padding-left: 15px;
+    text-align: left;
+    
+}
+
+
+
+
+
+figure img{
+
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 4px;
+    margin-left: auto;
+    background: gray;
+    -webkit-transition: -webkit-transform 0.3s;
+    box-shadow:gray 3px 3px 3px;
+    
+
+}
+
+figure img:hover{
+
+    -webkit-transform:scale(1.2);
+
+}
+
+.Back_Bottom{
+    font-size: 50%;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px solid #2eec71;
+    padding: 14px 40px;
+    outline: none;
+    COLOR: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 280px;
+}
+
+
+
+.Back_Bottom:hover{
+    transform: scale(2,2);
+    width: 280px;
+    border-color: aquamarine;
+    
+}

@@ -1,0 +1,114 @@
+body{
+    background-image:url("C:/Users/NTB Compaq/Desktop/CONTENT/uther/index html/yuukiyuuna.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 40px;
+    font-family: sans-serif; 
+}
+
+.header_1{
+
+    border: 5px inset greenyellow;
+    background: linear-gradient(rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493));
+}
+
+.com{
+    padding-left:30px ;
+}
+
+.nav_1{
+
+    border: 1px inset blueviolet;
+    background: linear-gradient(rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493));
+
+}
+li{
+    border: 3px solid yellow;
+    display: inline;
+    color: crimson;
+    font-size: 50px;
+}
+
+.articulo_1{
+
+    border: 3px inset red;
+    background:linear-gradient(rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493));
+    font: 900;
+    margin-left: 591px;
+    padding-left: 15px;    
+}
+
+.articulo_2{
+
+    border: 3px inset blue;
+    font: 900;
+    margin-left: 591px;
+    padding-left: 15px;
+    background: linear-gradient(rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493));
+}
+
+#articulo_portada{
+
+    border: 3px inset blue;
+    font: 900;
+    margin-left: 591px;
+    padding-left: 15px;
+    background: linear-gradient(rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493))
+}
+
+.barra_lateral{
+
+    background: radial-gradient(ellipse farthest-corner at 470px 47px,rgba(162, 0, 255, 0.356),rgba(0, 242, 255, 0.3),rgba(255, 72, 0, 0.493));
+    border: 3px solid black;
+    float: left;
+    height: 3000px;
+}
+
+.pie_principal {
+    background: linear-gradient(rgba(162, 0, 255, 0.356),rgba(0, 140, 255, 0.609),rgba(255, 72, 0, 0.493));
+    clear: both;
+    border: 3px solid khaki;
+    margin-top: 440px;
+}
+
+figure img{
+
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 4px;
+    margin-left: auto;
+    background: gray;
+    -webkit-transition: -webkit-transform 0.3s;
+    box-shadow:gray 3px 3px 3px;
+    
+}
+
+figure img:hover{
+
+    -webkit-transform:scale(1.2);
+}
+
+.Back_Bottom{
+    font-size: 90%;
+    border: 0;
+    background: rgba(162, 0, 255, 0.356);
+    display: block;
+    margin: -20px 140px;
+    text-align: center;
+    border: 5px solid #2eec71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    width: 280px;
+    
+}
+
+.Back_Bottom:hover{
+    transform: scale(1.5,1.5);
+    width: 280px;
+    border-color: aquamarine;   
+}
